@@ -1,0 +1,17 @@
+<html>
+
+<head>
+    <title>Hello world!</title>
+</head>
+
+<body>
+    <button type = "button" onclick = "changeMe()">Click me</button>
+    <script>
+        function changeMe() {
+            var elem = document.createElement("p");
+            elem.innerText = "Hello";
+            document.body.appendChild(elem);
+        }
+    </script>
+</body>
+</html>
